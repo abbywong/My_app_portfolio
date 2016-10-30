@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.android.my_app_portfolio.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/topic"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/spotify_streamer"
+        style="@style/ButtonTheme"
+        android:onClick="startSpotifyStreamer"
+        android:text="@string/nanodegree_app" />
+
+    <Button
+        android:id="@+id/score_app"
+
+        style="@style/ButtonTheme"
+
+        android:onClick="startScoreApp"
+        android:text="@string/scores_app" />
+
+    <Button
+        android:id="@+id/library_app"
+        style="@style/ButtonTheme"
+        android:onClick="startLibraryApp"
+        android:text="@string/Library_app" />
+
+    <Button
+        android:id="@+id/build_it_bigger"
+
+        style="@style/ButtonTheme"
+
+        android:onClick="startBuildItBigger"
+
+        android:text="@string/Build_it_bigger" />
+
+    <Button
+        android:id="@+id/XYZ_reader"
+
+        style="@style/ButtonTheme"
+
+        android:onClick="startXYZReader"
+        android:text="@string/XYZ_reader" />
+
+    <Button
+        android:id="@+id/capstone_my_own_app"
+        style="@style/ButtonTheme"
+        android:onClick="startCapstoneMyOwnApp"
+        android:text="@string/Capstone_my_own_app" />
+
+</LinearLayout>

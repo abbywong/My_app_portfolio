@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">我的应用作品集</string>
+    <string name="nanodegree_app">热门电影</string>
+    <string name="Capstone_my_own_app">毕业设计</string>
+    <string name="Build_it_bigger">最新闻</string>
+    <string name="XYZ_reader">XYZ阅读器</string>
+    <string name="topic">纳米学位应用</string>
+    <string name="scores_app">股票雄鹰</string>
+    <string name="Library_app">图书馆应用</string>
+</resources>
